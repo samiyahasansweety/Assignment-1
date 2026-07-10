@@ -1,0 +1,32 @@
+*{
+    margin: 0%;
+    padding: 0%; 
+}
+
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ padding: 10px 8%;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgb(133, 128, 128);
+}
+
+.common-btn{
+    background-color: blue;
+    padding: 12px 24px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
