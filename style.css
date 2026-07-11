@@ -59,8 +59,46 @@ header{
     text-align: center;
     max-width: 700px;
 }
+
+
+.speakers-container{
+    margin: 80px auto;
+    max-width: 1200px;
+    width: 90%;
+}
+
+.speakers-container h1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
    
-.header-content .common-btn{
+.speakers-card{
+    display:  grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin: 10px 15px;
+    padding: 20px 0%;
 
 }
+
+.card{
+    background-color: white;
+    border-radius: 12px;
+border: 10%;
+gap: 40px;
+}
+.card img{
+    width: 90%;
+    display: block;
+     
+}
+
+    .card p{
+        color: rgb(120, 120, 227);
+        font-size: 15px;
+
+    }
+
+    
     
