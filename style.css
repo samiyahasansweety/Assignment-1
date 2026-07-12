@@ -22,7 +22,7 @@
  padding: 10px 8%;
 }
 
-ul{
+.navbar{
     display: flex;
     justify-content: center;
     list-style: none;
@@ -34,7 +34,7 @@ a{
     text-decoration: none;
     color: rgb(133, 128, 128);
 }
-
+/* header */
 header{
     background-image:  linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)), url('./assets/banner.jpg');
     height: 700px;
@@ -60,7 +60,7 @@ header{
     max-width: 700px;
 }
 
-
+/* speakers */
 .speakers-container{
     margin: 80px auto;
     max-width: 1200px;
@@ -77,28 +77,86 @@ header{
     display:  grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
-    margin: 10px 15px;
-    padding: 20px 0%;
+    padding: 18px;
 
 }
 
 .card{
     background-color: white;
-    border-radius: 12px;
-border: 10%;
-gap: 40px;
+    border-radius: 15px;
+
 }
 .card img{
     width: 90%;
     display: block;
-     
+    border: 2px solid rgb(234, 230, 226);
 }
 
     .card p{
         color: rgb(120, 120, 227);
         font-size: 15px;
+        
 
     }
+/* pricing cards */
+.pricing{
+    text-align: center;
+    margin:  15px  auto;
+}
 
+    .pricing-container{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        
+    }
+
+    .pricing-cards{
+        width:  200px;
+        border: 1px solid  rgb(189, 178, 178);
+        border-radius: 12px;
+        padding: 18px;
+        display: flex;
+        flex-direction: column;
+    }
+
+.pricing-cards ul, li{
+    margin-bottom: 10px;
+}
     
+
+.pricing-cards button{
+ text-align: center; 
+   padding: 12px 0;
+   border-radius: 8px;
+width: 100%;
+border: 2px solid;
+margin-top: auto;
+cursor: pointer;
+}
+
+.first-btn{
+   color: rgb(92, 92, 252);
+   border-color: rgb(91, 91, 224);
+   background-color: white;
+}
+
+.pro-btn{
+    background-color: blue;
+    color: azure;
+    border-color: black;
     
+}
+
+ .third-button{
+background-color:  white;
+
+ }
+
+ .pro{
+    background-color: black;
+    color: white;
+ }
+ .pro h6{
+    color: skyblue;
+ }
