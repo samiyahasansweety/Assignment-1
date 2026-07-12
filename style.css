@@ -3,7 +3,7 @@
     padding: 0%; 
 }
     section{
-        padding: 80px 8%;
+        padding: 40px 8%;
     }
 
 .common-btn{
@@ -62,7 +62,7 @@ header{
 
 /* speakers */
 .speakers-container{
-    margin: 80px auto;
+    margin: 40px auto;
     max-width: 1200px;
     width: 90%;
 }
@@ -143,9 +143,7 @@ cursor: pointer;
 
 .pro-btn{
     background-color: blue;
-    color: azure;
-    border-color: black;
-    
+    color: azure;    
 }
 
  .third-button{
@@ -160,3 +158,80 @@ background-color:  white;
  .pro h6{
     color: skyblue;
  }
+
+ 
+ ul li::marker{
+    color: blue;
+ }
+
+ /* placeholder section with AI */
+.newsletter{
+    width:60%;
+    margin:50px auto;
+    padding:30px;
+    background:#f5f5f5;
+    border-radius:10px;
+}
+
+.newsletter h2,
+.newsletter p{
+    text-align:center;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.newsletter form{
+    width: 100%;
+}
+.newsletter label{
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    /* margin-bottom: 4px; */
+    color: #333;
+}
+.newsletter select{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.newsletter select:focus{
+    outline: none;
+    border-color: #0d6efd;
+}
+
+/* Subscribe Button */
+.newsletter button[type="submit"]{
+    background-color: #4E47FF;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.newsletter button[type="submit"]:hover{
+    background-color: #3c36d6;
+}
+
+/* Reset Button */
+.newsletter button[type="reset"]{
+    background-color: rgb(36, 32, 32);
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.newsletter button[type="reset"]:hover{
+     background-color: #4E47FF;
+    color: white;
+}
