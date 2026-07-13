@@ -3,7 +3,7 @@
     padding: 0%; 
 }
     section{
-        padding: 40px 8%;
+        padding: 28px 8%;
     }
 
 .common-btn{
@@ -62,7 +62,7 @@ header{
 
 /* speakers */
 .speakers-container{
-    margin: 40px auto;
+    margin: 30px auto;
     max-width: 1200px;
     width: 90%;
 }
@@ -85,6 +85,9 @@ header{
     background-color: white;
     border-radius: 15px;
 
+}
+.card .paragraph{
+    color: rgb(108, 103, 103);
 }
 .card img{
     width: 90%;
@@ -228,10 +231,34 @@ background-color:  white;
     border-radius: 6px;
     font-size: 16px;
     cursor: pointer;
-    transition: 0.3s ease;
 }
 
 .newsletter button[type="reset"]:hover{
      background-color: #4E47FF;
     color: white;
 }
+/* footer */
+
+footer{
+    background-color: rgb(29, 29, 137);
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between; 
+    color: white;
+    padding: 15px 20px;
+    
+}
+
+.middle-footer{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+ hr{
+    width: 80%;
+    margin: 0 auto;
+ }
